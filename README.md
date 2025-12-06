@@ -45,8 +45,8 @@ Die DB ist ebenfalls inkludiert.
 `pip install -e .`
 
 ### BONUS: mit docker
-`docker build -t demoapi .
-docker run -p 4567:4567 demoapi`
+`docker build -t demoapi .`
+`docker run -p 4567:4567 demoapi`
 
 -> START der APP durch Ausführung der main.py im Projekt-Root oder durch Starten des Docker Containers
 
