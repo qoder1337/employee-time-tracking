@@ -45,8 +45,8 @@ Die DB ist ebenfalls inkludiert.
 `pip install -e .`
 
 ### BONUS: mit docker
-`docker build -t demoapi .`
-`docker run -p 4567:4567 demoapi`
+- `docker build -t demoapi .`
+- `docker run -p 4567:4567 demoapi`
 
 -> START der APP durch Ausführung der main.py im Projekt-Root oder durch Starten des Docker Containers
 
@@ -62,12 +62,12 @@ Für einen gesamten Überblick einfach die docs aufrufen:
 http://localhost:4567/docs
 
 ### Auswahl an CRUD-Endpoints
-`POST /employees/                  → Mitarbeiter anlegen`
-`GET    /employees/                 → Mitarbeiter-Liste`
-`GET    /employees/{id}/summary     → Statistik eines Mitarbeiters via ID abrufen`
-`GET    /employees/{employee_id}    → Mitarbeiter via ID abrufen`
-`PATCH  /employees/{employee_id}    → Mitarbeiter via ID aktualisieren`
-`DELETE /employees/{employee_id}    → Mitarbeiter via ID löschen`
+- `POST /employees/                  → Mitarbeiter anlegen`
+- `GET    /employees/                 → Mitarbeiter-Liste`
+- `GET    /employees/{id}/summary     → Statistik eines Mitarbeiters via ID abrufen`
+- `GET    /employees/{employee_id}    → Mitarbeiter via ID abrufen`
+- `PATCH  /employees/{employee_id}    → Mitarbeiter via ID aktualisieren`
+- `DELETE /employees/{employee_id}    → Mitarbeiter via ID löschen`
 
 ähnlich verhält es sich mit den shift-Endpoints für die Schichten der Mitarbeiter (siehe /docs)
 
