@@ -1,0 +1,16 @@
+[project]
+name = "Employee-Time-Tracking-API"
+version = "0.0.1"
+description = "Hausaufgabe: Employee-Time-Tracking API. Realisiert mit FastAPI."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "fastapi>=0.118.2",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.11.0",
+    "pytest>=9.0.1",
+    "pytest-asyncio>=1.3.0",
+    "sqlalchemy>=2.0.43",
+    "uvicorn[standard]>=0.37.0",
+]
