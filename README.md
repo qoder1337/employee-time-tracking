@@ -16,10 +16,10 @@ Die DB ist ebenfalls inkludiert.
 - Mitarbeiter:innen verwalten (CRUD)
 - Arbeitszeiten für Mitarbeiter erfassen (CRUD)
 - Validierungen:
-    1. keine überlappenden Schichten
-    2. maximale Anzahl aufeinander folgender Arbeitstage: 5
-    3. maximale Tagesarbeitszeit: nicht mehr als 10 Stunden
-    4. simpler Check über das pydantic-SCHEMA ob korrekte Zeitangaben gemacht wurden (Schichtbeginn vor Schichtende)
+    - keine überlappenden Schichten (VALIDATION 1)
+    - maximale Anzahl aufeinander folgender Arbeitstage: 5 (VALIDATION 2)
+    - maximale Tagesarbeitszeit: nicht mehr als 10 Stunden (VALIDATION 3)
+    - simpler Check über das pydantic-SCHEMA ob korrekte Zeitangaben gemacht wurden (Schichtbeginn vor Schichtende) (VALIDATION 4)
 - Auswertungen pro Mitarbeiter, u.a. mit:
     - Anzahl der Schichten und gearbeiteten Tage
     - Durchschnittliche Pause pro Schicht
@@ -62,12 +62,12 @@ Für einen gesamten Überblick einfach die docs aufrufen:
 http://localhost:4567/docs
 
 ### Auswahl an CRUD-Endpoints
-`POST /employees/                  → Mitarbeiter anlegen
-GET    /employees/                 → Mitarbeiter-Liste
-GET    /employees/{id}/summary     → Statistik eines Mitarbeiters via ID abrufen
-GET    /employees/{employee_id}    → Mitarbeiter via ID abrufen
-PATCH  /employees/{employee_id}    → Mitarbeiter via ID aktualisieren
-DELETE /employees/{employee_id}    → Mitarbeiter via ID löschen`
+`POST /employees/                  → Mitarbeiter anlegen`
+`GET    /employees/                 → Mitarbeiter-Liste`
+`GET    /employees/{id}/summary     → Statistik eines Mitarbeiters via ID abrufen`
+`GET    /employees/{employee_id}    → Mitarbeiter via ID abrufen`
+`PATCH  /employees/{employee_id}    → Mitarbeiter via ID aktualisieren`
+`DELETE /employees/{employee_id}    → Mitarbeiter via ID löschen`
 
 ähnlich verhält es sich mit den shift-Endpoints für die Schichten der Mitarbeiter (siehe /docs)
 
