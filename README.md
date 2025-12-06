@@ -7,7 +7,7 @@ CRUD-Endpoints sind enthalten (siehe Beispiel-Requests).
 Außerdem: Ausgabe von Einzel-Statistiken und Gesamtüberblick.
 
 
-**Demo-Hinweis:** `.env` Datei ist für Demozwecke im Repository enthalten (nicht production-ready).
+**Demo-Hinweis:** `.env` Datei ist für Demozwecke im Repository enthalten.
 Die DB ist ebenfalls inkludiert.
 
 
