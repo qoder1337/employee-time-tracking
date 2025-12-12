@@ -10,7 +10,7 @@ Außerdem: Ausgabe von Einzel-Statistiken und Gesamtüberblick.
 **Demo-Hinweis:** `.env` Datei ist für Demozwecke im Repository enthalten.
 Die DB ist ebenfalls inkludiert.
 
-**PRÄSENTATION:** https://excalidraw.com/#json=aNhQEsAFSwcvjRkEqzepC,31kN60fbPW81vzRPt_tU1A
+**PRÄSENTATION:** https://excalidraw.com/#json=3sVo3kbQ40kqM2dj4y_GE,cJrmO34PUZqii7MD4DW_5A
 
 
 ## API-Features:
